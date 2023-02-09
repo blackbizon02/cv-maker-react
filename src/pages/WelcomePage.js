@@ -5,7 +5,7 @@ import "./WelcomePage.css"
 function WelcomePage() {
     return (
         <div className="welcome-page">
-            <div className="container">
+            <div className="container padding">
                 <img src="/images/logo.png" alt="" />
                 <div className="line"></div>
                 <Link to={'/personal-info'}>

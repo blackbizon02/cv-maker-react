@@ -4,6 +4,9 @@ img {
     max-height: 100%;
     margin-top: 25px;
     margin-bottom: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .line {
@@ -35,4 +38,8 @@ img {
     cursor: pointer;
     max-width: 100%;
     font-size: 20px;
+}
+
+.padding {
+    padding: 15px;
 }

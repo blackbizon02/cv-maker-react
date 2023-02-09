@@ -15,5 +15,136 @@ body {
 
 .container {
   max-width: 1780px;
-  margin:  0 auto;
+  margin: 0 auto;
+}
+
+.personal-info {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100vh;
+}
+
+.form-content {
+  background-color: #f9f9f9;
+  padding-top: 45px;
+  position: relative;
+}
+
+.goToFirstPage {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  top: 4%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.goToFirstPage img {
+  width: 9.21px;
+  height: 16px;
+}
+
+.content-width {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-header .header-title {
+  font-size: 24px;
+  color: #1A1A1A;
+  font-weight: 700;
+}
+
+.content-header span {
+  font-size: 20px;
+  color: #1A1A1A;
+  font-weight: 400;
+}
+
+.headerBottomLine {
+  width: 100%;
+  background-color: #1A1A1A;
+  height: 1px;
+  margin-top: 12px;
+  margin-bottom: 69px;
+}
+
+.cv-title {
+  display: flex;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 34px;
+  color: #F93B1D;
+  margin-bottom: 17px;
+  margin-top: 20px;
+}
+
+.cv-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cv-email,
+.cv-phone img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cv-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 17px;
+}
+
+.title-about-me {
+  font-weight: 700;
+  font-size: 18px;
+  color: #F93B1D;
+  margin-top: 34px;
+}
+
+.cv-about p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-top: 15px;
+  max-width: 100px;
+}
+
+#cv-image {
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.flex-cv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 15px;
+}
+
+.output-content {
+  width: 100%;
+  height: 100%;
 }
